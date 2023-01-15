@@ -1,0 +1,239 @@
+/* Profile */
+.profile {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-top: 36px;
+    width: 100%;
+    height: 340px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    border-radius: 24px;
+}
+
+.avatar-frame {
+    cursor: default;
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+.profile__name {
+    font-size: 18px;
+}
+
+.profile__descriptions {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.avatar-frame__img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile__add-to-contact-btn {
+    width: 50%;
+    height: 36px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+/* Social buttons */
+
+.social-btn img {
+    max-width: 100%;
+}
+
+.social-btn i {
+    font-size: 28px;
+}
+
+#social-btn__instagram i {
+    font-size: 36px;
+}
+
+#social-btn__mail i {
+    font-size: 33px;
+}
+
+/* More info  */
+
+.more-info {
+    display: flex;
+    padding: 0 20px;
+    max-width: 152px;
+}
+
+.more-info i {
+    font-size: 28px;
+}
+.more-info h2 {
+    margin-left: 12px;
+    text-align: left;
+    font-size: 13px;
+    flex: 1;
+}
+
+.more-info img {
+    height: 42px;
+    width: 42px;
+}
+
+#press-here {
+    justify-content: flex-end;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+}
+
+#press-here i {
+    margin-top: 3px;
+    font-size: 24px;
+    margin-left: 8px;
+    transform: translateY(1px);
+}
+
+#press-here span {
+    width: 66px;
+}
+#press-here p {
+    text-align: justify;
+    font-size: 18px;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#banking-info-container {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-animation: opacity 0.5s ease;
+    animation: opacity 0.5s ease;
+}
+
+#banking-info__list {
+    margin-bottom: 16px;
+    padding-left: 32px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 18px;
+    font-family: var(--primary-font);
+}
+/* More details */
+
+.more-details {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: height 0.2s ease;
+    -o-transition: height 0.2s ease;
+    transition: height 0.2s ease;
+    -webkit-animation: opacity 0.5s ease;
+    animation: opacity 0.5s ease;
+    line-height: 68px;
+}
+
+.more-details p {
+    display: inline-block;
+    font-size: 18px;
+    flex: 1;
+    text-align: center;
+}
+
+#details-mail p {
+    font-size: 16px;
+}
+
+#details-phone p {
+    user-select: none;
+}
+
+.copy-hint.hidden {
+    display: none;
+}
+
+.copy-hint {
+    display: block;
+    opacity: 0.75;
+    text-align: center;
+    visibility: visible;
+    margin-bottom: 24px;
+}
+
+.message-title {
+    line-height: 2;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.message-box {
+    width: 100%;
+    /* height: 120px; */
+    margin-bottom: 16px;
+    padding: 16px 0px 16px 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.message-box .message-input {
+    font-size: 16px;
+    padding: 8px 8px;
+    flex: 1;
+    margin-right: 12px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: inherit;
+    resize: none;
+}
+
+.message-send {
+    font-size: 16px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.more-details-btn {
+    height: 36px;
+    margin-right: 16px;
+    border-radius: 15px;
+    width: 68px;
+    font-family: var(--primary-font);
+}
+
+.hidden p {
+    display: none;
+}
+.hidden > * {
+    display: none;
+}
+.hidden {
+    opacity: 1;
+    height: 0px !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    animation: opacity 0.1s ease;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 310px) {
+    body {
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "imgUrl": "./img/ava.png",
+    "name": "Nguyen Tran Quoc Anh",
+    "bio": "Developer / Editor / Designer",
+    "vcfUrl": "./file/file.vcf",
+    "socials": [
+        {
+            "type": "link",
+            "id": "social-btn__facebook",
+            "link": "https://www.facebook.com/trananh.prince",
+            "icon": "fab fa-facebook-f"
+        },
+        {
+            "type": "link",
+            "id": "social-btn__instagram",
+            "link": "https://openinapp.co/trananhhh",
+            "icon": "fab fa-instagram"
+        },
+        {
+            "type": "button",
+            "id": "social-btn__mail",
+            "icon": "fas fa-envelope",
+            "link": "mailto:trananhprince@gmail.com",
+            "contentId": "details-mail",
+            "content": "trananhprince@gmail.com",
+            "buttonLabel": "Send"
+        },
+        {
+            "type": "button",
+            "id": "social-btn__phone",
+            "icon": "fas fa-phone",
+            "contentId": "details-phone",
+            "content": "0982202602",
+            "buttonLabel": "Call",
+            "link": "tel:0982202602"
+        }
+    ],
+    "bankingInfo": [
+        { "name": "Momo", "number": "0982202602" },
+        { "name": "TP Bank", "number": "0982202602" },
+        { "name": "MB Bank", "number": "0982202602" },
+        { "name": "ZaloPay", "number": "0982202602" },
+        { "name": "ShopeePay", "number": "0982202602" },
+        { "name": "ViettelPay", "number": "0982202602" }
+    ]
+}
