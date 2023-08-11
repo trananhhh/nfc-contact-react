@@ -35,6 +35,7 @@ function App() {
                             id={item.id}
                             link={item.link}
                             icon={item.icon}
+                            isIconUrl={item.isIconUrl}
                         />
                     ) : (
                         <CollapseButton

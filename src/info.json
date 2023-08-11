@@ -17,13 +17,11 @@
             "icon": "fab fa-instagram"
         },
         {
-            "type": "button",
+            "type": "link",
             "id": "social-btn__mail",
-            "icon": "fas fa-envelope",
-            "link": "mailto:trananhprince@gmail.com",
-            "contentId": "details-mail",
-            "content": "trananhprince@gmail.com",
-            "buttonLabel": "Send"
+            "isIconUrl": true,
+            "icon": "icon/zalo.png",
+            "link": "https://zalo.me/0982202602"
         },
         {
             "type": "button",

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useThemeDetector } from '../utils';
 
-const ButtonLink = ({ link, id, icon }) => {
+const ButtonLink = ({ link, id, icon, isIconUrl }) => {
     const theme = useThemeDetector();
 
     return (
@@ -10,7 +10,15 @@ const ButtonLink = ({ link, id, icon }) => {
             onClick={() => window.open(link, '_blank').focus()}
             className={'social-btn button col-forth col' + theme}
         >
-            <i className={icon} />
+            {isIconUrl ? (
+                <img
+                    src={process.env.PUBLIC_URL + icon}
+                    alt="icon"
+                    style={{ height: '100%', width: '100%', padding: 16 }}
+                />
+            ) : (
+                <i className={icon} />
+            )}
         </div>
     );
 };
